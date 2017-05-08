@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddStuMessage	function.h	/^void AddStuMessage(char* StuNum,char* StuName,char* StuSex,int StuScore)	$/;"	f
+ClearLinkList	function.h	/^void ClearLinkList()$/;"	f
+DeleteFile	function.h	/^void DeleteFile()$/;"	f
+DeleteStuMessage	function.h	/^void DeleteStuMessage(char Num[])$/;"	f
+DisplayCommand	function.h	/^void DisplayCommand()	$/;"	f
+ModifyStuMessage	function.h	/^void ModifyStuMessage(char Num[])$/;"	f
+PrintStuMessage	function.h	/^void PrintStuMessage()	$/;"	f
+ReadFileStuMessage	function.h	/^void ReadFileStuMessage()$/;"	f
+RecorveryDeleStuMessage	function.h	/^void RecorveryDeleStuMessage(char Num[])$/;"	f
+STUNODE	function.h	/^}STUNODE;$/;"	t	typeref:struct:_STU
+SaveStuMessage	function.h	/^void SaveStuMessage()$/;"	f
+SearchStuMessage	function.h	/^void SearchStuMessage(char Num[15])$/;"	f
+StuName	function.h	/^	char StuName[12];$/;"	m	struct:_STU
+StuNum	function.h	/^	char StuNum[15];$/;"	m	struct:_STU
+StuScore	function.h	/^	int StuScore;$/;"	m	struct:_STU
+StuSex	function.h	/^	char StuSex[5];$/;"	m	struct:_STU
+_STU	function.h	/^typedef struct _STU$/;"	s
+g_pEnd	function.h	/^STUNODE* g_pEnd = NULL;$/;"	v
+g_pHead	function.h	/^STUNODE* g_pHead = NULL;$/;"	v
+main	StuSystem.c	/^int main(void)$/;"	f
+main	test.c	/^int main()$/;"	f
+pNext	function.h	/^	struct _STU *pNext;$/;"	m	struct:_STU	typeref:struct:_STU::_STU
