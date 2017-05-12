@@ -1,0 +1,568 @@
+
+    1  gcc
+    2  gcc -o Code.c Code
+    3  pwd
+    4  ping baidu.com
+    5  sudo add-apt-repository ppa:fci-team/nightly
+    6  cd 桌面
+    7  vim Code.c
+    8  gcc Code.c -o Code
+    9  ./Code
+   10  gcc Code.c -o Code
+   11  ./Code
+   12  cd 桌面
+   13  gcc Code.c -o Code
+   14  vim Code.c 
+   15  vi Code.c 
+   16  sudo apt install vim
+   17  vim Code.c 
+   18  gcc Code.c -o Code
+   19  vim Code.c 
+   20  gcc Code.c -o Code
+   21  vim Code.c 
+   22  gcc Code.c -o Code
+   23  vim Code.c 
+   24  gcc Code.c -o Code
+   25  ./Code
+   26  gcc Code.c -o Code
+   27  ./Code
+   28  gcc Code.c -o Code
+   29  ./Code
+   30  cd 桌面
+   31  vim Code.c 
+   32  vim altnames.c
+   33  vim praise1.c
+   34  vim praise2.c
+   35  vim pointer.c
+   36  vim sizeof.c
+   37  vim pound.c
+   38  vim running.c
+   39  gcc altnames.c -o altnames
+   40  ./altnames 
+   41  gcc praise1.c -o praise1
+   42  ./praise1 
+   43  gcc praise1.c -o praise1
+   44  ./praise1 
+   45  gcc praise2.c -o praise2
+   46  ./praise2
+   47  gcc praise2.c -o praise2
+   48  ./praise2
+   49  gcc pointer -o pointer
+   50  gcc pointer.c -o pointer
+   51  ./pointer 
+   52  gcc -o sizeof.c
+   53  gcc -o sizeof.c sizeof
+   54  gcc sizeof.c -o sizeof
+   55  ./sizeof 
+   56  man ansi
+   57  man ansii
+   58  gcc pound.c -o pound
+   59  ./pound
+   60  gcc pound.c -o pound
+   61  ./pound
+   62  lantern-installer-beta-64-bit.deb
+   63  sudo apt install gdebi-core
+   64  sudo gdebi lantern-install-beta-64-bit.deb
+   65  sudo reboot
+   66  sudo apt install gdebi-core
+   67  sudo gdebi lantern-installer-beta-64-bit.deb
+   68  lantern
+   69  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   70  sudo apt-get install google-chrome-stable
+   71  clear
+   72  git clone https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+   73  sudo apt install git
+   74  git clone https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+   75  man git
+   76  wall i love you
+   77  cd /bin/ing
+   78  cd /bin/ping
+   79  cd /bin
+   80  ls
+   81  lscd //
+   82  cd
+   83  ping baidu.com
+   84  ping -c 3 baidu.com
+   85  ifconfig
+   86  ping -c 5 192.168.2
+   87  ping -c 5 192.168.0.2
+   88  ifconfig
+   89  ifconfig enp9s0 192.168.0.24
+   90  sudo ifconfig enp9s0 192.168.0.24
+   91  ifconfig
+   92  sudo ifconfig enp9s0 192.168.18.24
+   93  sudo passwd root
+   94  sudo adduser Ubuntu16
+   95  adduser Ubuntu16
+   96  sudo adduser Ubuntu16
+   97  sudo reboot
+   98  last
+   99  lastlong
+  100  lastlog
+  101  lastlog -u 502
+  102  traceroute
+  103  traceroute www.sina.com.cn
+  104  sudo apt install traceroute
+  105  traceroute www.sina.com.cn
+  106  traceroute www.lampbrother.com
+  107  traceroute www.lampbrother.com.cn
+  108  netstat -tuln
+  109  man netstat
+  110  netstat -tuln
+  111  netstat -an
+  112  netstat -rn
+  113  setup
+  114  service network restore
+  115  su root
+  116  su root
+  117  vim scanf.c
+  118  runlevel
+  119  logout
+  120  exit
+  121  shutdown -h now
+  122  man tar
+  123  tar -zcvf rules.tar.gz 
+  124  tar -zcvf rules.tar.gz rules
+  125  tar -zcvf rules rules.tar.gz 
+  126  man tar
+  127  traceroute baidu.com
+  128  nm-long
+  129  nm
+  130  man nm
+  131  ./Code
+  132  cd 桌面
+  133  ./Code
+  134  ./compare
+  135  sudo ./compare
+  136  su root
+  137  ./test.sh
+  138  vim 03-29--04-03.txt
+  139  mv 03-29--04-03.txt 03-31——04-05.txt
+  140  vim 03-31——04-05.txt 
+  141  su root
+  142  chmod 777 *
+  143  ls -lh
+  144  clear
+  145  ./JCode.c
+  146  ls -lh
+  147  chmod 777 *
+  148  ls
+  149  ls -ld
+  150  ls -lh
+  151  ./Code.c 
+  152  gcc Code.c -o Code
+  153  ./Code
+  154  gcc JCode.c -o JCode
+  155  ./JCode
+  156  xxd modify.b 
+  157  vim run.sh
+  158  su root 
+  159  ./Code
+  160  ./Code
+  161  ./JCode
+  162  man fseek
+  163  shutsown -h now
+  164  shutdown -h now
+  165  cd 桌面
+  166  vim Code.c
+  167  vim auto.sh
+  168  bash auto.sh 
+  169  vim auto.sh
+  170  bash auto.sh 
+  171  man ansi
+  172  man asii
+  173  man asi
+  174  man ansi
+  175  bash auto.sh 
+  176  xxd register.dat
+  177  od -c -t register.dat
+  178  od -t register.dat
+  179  xxd register.dat | less
+  180  bash auto.sh 
+  181  man xxd
+  182  man od
+  183  od -tx2 register.dat |less
+  184  od -tx2 -tc register.dat |less
+  185  bash auto.sh 
+  186  od -tx2 -tc register.dat |less
+  187  bash auto.sh 
+  188  MV .register.dat register.dat
+  189  mv .register.dat register.dat
+  190  bash auto.sh 
+  191  ls -all
+  192  vim .register.dat 
+  193  bash auto.sh 
+  194  shutdown -h now
+  195  ./Code
+  196  ./JCode
+  197  ls
+  198  vim Code.c
+  199  vim JCode.c
+  200  vim F_CRC32.h 
+  201  vim F_SIZE.h 
+  202  vim C.sh
+  203  bash ./C.sh 
+  204  vim C.sh
+  205  bash ./C.sh 
+  206  bash ./JC
+  207  bash ./JC.sh 
+  208  vim A.sh
+  209  cd 桌面
+  210  ls -lh
+  211  vim Code.c
+  212  cd tool/
+  213  vim B.c C.c D.c
+  214  ls
+  215  touch C.c D.c 
+  216  ls
+  217  Code
+  218  ./Code
+  219  ls
+  220  cd bash
+  221  ./../Code
+  222  bash auto.sh 
+  223  sudo auto.sh
+  224  bash auto.sh
+  225  gcc ../function/A.c -o A
+  226  gcc ../function/A.c -o ../function/A
+  227  vim test.sh
+  228  bash test.sh 
+  229  vim test.sh
+  230  bash test.sh 
+  231  vim test.sh
+  232  bash test.sh 
+  233  vim test.sh
+  234  bash test.sh 
+  235  vim test.sh
+  236  vim test.c
+  237  bash test.sh 
+  238  man system
+  239  vim test.c
+  240  bash test.sh 
+  241  vim test.c
+  242  shutdown -h now
+  243  bash subl
+  244  bash ./subl
+  245  bash auto.sh 
+  246  su root
+  247  vim summarize.c
+  248  exit
+  249  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  250  su root
+  251  exit
+  252  cd 桌面
+  253  vim test.c
+  254  gcc test.c -o test
+  255  vim test.c
+  256  gcc test.c -o test
+  257  ./test 
+  258  vim test-1.c
+  259  gcc test-1.c  -o test-1
+  260  ./test-1
+  261  shutdown -h now
+  262  su root
+  263  exit
+  264  su root
+  265  exit
+  266  chmod 777 StuSystem StuSystem StuSystem.sh
+  267  su root
+  268  shutdown -h now
+  269  du -h /var/cache/apt/archives/
+  270  sudo apt-get autoclean
+  271  du -h /var/cache/apt/archives/
+  272  sudo apt-get autoremove
+  273  du -h /var/cache/apt/archives/
+  274  df -hl
+  275  ru root
+  276  su root
+  277  fdisk -ld
+  278  fdisk -lh
+  279  df -hl
+  280  shutdown -h now
+  281  su root
+  282  df -lh
+  283  vim fbl
+  284  vim pound.c
+  285  ll praise1
+  286  vim pound.c
+  287  man shutdown 
+  288  shutdown -h now
+  289  which ls
+  290  whatis ls
+  291  where ls
+  292  whereis ls
+  293  date
+  294  what vi
+  295  whatis vi
+  296  su root
+  297  sudo apt-get autoremove --purge qt4-*
+  298  git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git
+  299  git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git /home/jbkj/source/
+  300  git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git /home/jbkj/source
+  301  sodu git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git /home/jbkj/source
+  302  sudo git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git /home/jbkj/source
+  303  sudo git clone https://fbl846058904@bitbucket.org/fbl846058904/mychome.git
+  304  git status
+  305  sudo apt-get git-core
+  306  sudo apt-get install git
+  307  man git
+  308  exit
+  309  df -lh
+  310  vim 4.06-4.13 
+  311  sudo ./auto.sh
+  312  sudo auto.sh
+  313  ./Code
+  314  uname -a
+  315  cd /etc/vim
+  316  ls -all
+  317  su root
+  318  vim StuSystem.c
+  319  cd /etc/vim
+  320  su root
+  321  cd 桌面
+  322  vim note.doc 
+  323  ./StuSystem
+  324  man ascii
+  325  vim convert.c
+  326  gcc convert.c  -o convert
+  327  ./convert 
+  328  vim convert.c
+  329  gcc convert.c  -o convert
+  330  ./convert 
+  331  vim ascii.c
+  332  gcc  ascii.c -o ascii
+  333  vim ascii.c
+  334  gcc  ascii.c -o ascii
+  335  ./ascii 
+  336  vim ascii.c
+  337  gcc  ascii.c -o ascii
+  338  ./ascii 
+  339  vim convert.c
+  340  gcc convert.c  -o convert
+  341  ./convert 
+  342  vim convert.c
+  343  gcc convert.c  -o convert
+  344  ./convert 
+  345  vim convert.c
+  346  gcc convert.c  -o convert
+  347  ./convert 
+  348  vim convert.c
+  349  gcc convert.c  -o convert
+  350  ./convert 
+  351  man uint32_t
+  352  man stdint.h
+  353  gcc return_value.c -o return_value
+  354  ./return_value 
+  355  man stdint.h
+  356  vim return_value.c 
+  357  vim scanf.c
+  358  gcc scanf.c -o scanf
+  359  ./scanf
+  360  sdf
+  361  ./scanf
+  362  vim scanf.c
+  363  gcc scanf.c -o scanf
+  364  ./scanf
+  365  cd ~
+  366  pwd
+  367  ll
+  368  cd 桌面
+  369  ls -al
+  370  vim note.doc 
+  371  shutdown -h now
+  372  cd /etc/vim
+  373  ls
+  374  vim vimrc
+  375  chmod 777 vimrc
+  376  sudo chmod 777 vimrc
+  377  vim vimrc
+  378  df -lh
+  379  pwd
+  380  git checkout
+  381  git checkbox
+  382  sudo reboot
+  383  git clone https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+  384  ls
+  385  cd tk 
+  386  ls
+  387  cd sensor/
+  388  ls
+  389  vim run.sh 
+  390  vim main.c 
+  391  shutdown -h now
+  392  su root 
+  393  sudo chmod 777 tk
+  394  rm -rf tk
+  395  sudo rm -rf tk
+  396  git clone https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+  397  git push origin master
+  398  git push origin master https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+  399  git push fbl846058904 https://fbl846058904@bitbucket.org/ZhiWang/tk.git
+  400  ls
+  401  git push fbl846058904 tk
+  402  git push tk tk
+  403  su root
+  404  vim continue.c
+  405  gcc continue.c -o continue
+  406  vim continue.c
+  407  history
+  408  history>>123.txt
+ISALPHA(3)                                                Linux Programmer's Manual                                                ISALPHA(3)
+
+NAME
+       isalnum, isalpha, isascii, isblank, iscntrl, isdigit, isgraph, islower, isprint, ispunct, isspace, isupper, isxdigit, isalnum_l, isal‐
+       pha_l, isascii_l, isblank_l, iscntrl_l, isdigit_l, isgraph_l, islower_l, isprint_l,  ispunct_l,  isspace_l,  isupper_l,  isxdigit_l  -
+       character classification functions
+
+SYNOPSIS
+       #include <ctype.h>
+
+       int isalnum(int c);
+       int isalpha(int c);
+       int iscntrl(int c);
+       int isdigit(int c);
+       int isgraph(int c);
+       int islower(int c);
+       int isprint(int c);
+       int ispunct(int c);
+       int isspace(int c);
+       int isupper(int c);
+       int isxdigit(int c);
+
+       int isascii(int c);
+       int isblank(int c);
+
+       int isalnum_l(int c, locale_t locale);
+       int isalpha_l(int c, locale_t locale);
+       int isblank_l(int c, locale_t locale);
+       int iscntrl_l(int c, locale_t locale);
+       int isdigit_l(int c, locale_t locale);
+       int isgraph_l(int c, locale_t locale);
+       int islower_l(int c, locale_t locale);
+       int isprint_l(int c, locale_t locale);
+       int ispunct_l(int c, locale_t locale);
+       int isspace_l(int c, locale_t locale);
+       int isupper_l(int c, locale_t locale);
+       int isxdigit_l(int c, locale_t locale);
+
+       int isascii_l(int c, locale_t locale);
+
+   Feature Test Macro Requirements for glibc (see feature_test_macros(7)):
+
+       isascii():
+           _BSD_SOURCE || _SVID_SOURCE || _XOPEN_SOURCE
+
+       isblank():
+           _XOPEN_SOURCE >= 600 || _ISOC99_SOURCE || _POSIX_C_SOURCE >= 200112L;
+           or cc -std=c99
+
+       isalnum_l(), isalpha_l(), isblank_l(), iscntrl_l(), isdigit_l(), isgraph_l(), islower_l(), isprint_l(), ispunct_l(), isspace_l(),
+       isupper_l(), isxdigit_l():
+           Since glibc 2.10:
+                  _XOPEN_SOURCE >= 700
+           Before glibc 2.10:
+                  _GNU_SOURCE
+
+       isascii_l():
+           Since glibc 2.10:
+                  _XOPEN_SOURCE >= 700 && (_SVID_SOURCE || _BSD_SOURCE)
+           Before glibc 2.10:
+                  _GNU_SOURCE
+
+DESCRIPTION
+       These functions check whether c, which must have the value of an unsigned char or EOF, falls into a certain character class  according
+       to the specified locale.  The functions without the "_l" suffix perform the check based on the current locale.
+
+       The functions with the "_l" suffix perform the check based on the locale specified by the locale object locale.  The behavior of these
+       functions is undefined if locale is the special locale object LC_GLOBAL_LOCALE (see duplocale(3)) or is not a valid locale object han‐
+       dle.
+
+       The  list  below  explains  the  operation of the functions without the "_l" suffix; the functions with the "_l" suffix differ only in
+       using the locale object locale instead of the current locale.
+
+       isalnum()
+              checks for an alphanumeric character; it is equivalent to (isalpha(c) || isdigit(c)).
+
+       isalpha()
+              checks for an alphabetic character; in the standard "C" locale, it is  equivalent  to  (isupper(c)  ||  islower(c)).   In  some
+              locales, there may be additional characters for which isalpha() is true—letters which are neither uppercase nor lowercase.
+
+       isascii()
+              checks whether c is a 7-bit unsigned char value that fits into the ASCII character set.
+
+       isblank()
+              checks for a blank character; that is, a space or a tab.
+
+       iscntrl()
+              checks for a control character.
+
+       isdigit()
+              checks for a digit (0 through 9).
+
+       isgraph()
+              checks for any printable character except space.
+
+       islower()
+              checks for a lowercase character.
+
+       isprint()
+              checks for any printable character including space.
+
+       ispunct()
+              checks for any printable character which is not a space or an alphanumeric character.
+
+       isspace()
+              checks  for  white-space  characters.  In the "C" and "POSIX" locales, these are: space, form-feed ('\f'), newline ('\n'), car‐
+              riage return ('\r'), horizontal tab ('\t'), and vertical tab ('\v').
+
+       isupper()
+              checks for an uppercase letter.
+
+       isxdigit()
+              checks for hexadecimal digits, that is, one of
+              0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F.
+
+RETURN VALUE
+       The values returned are nonzero if the character c falls into the tested class, and zero if not.
+
+ATTRIBUTES
+       For an explanation of the terms used in this section, see attributes(7).
+
+       ┌─────────────────────────────────┬───────────────┬─────────┐
+       │Interface                        │ Attribute     │ Value   │
+       ├─────────────────────────────────┼───────────────┼─────────┤
+       │isalnum(), isalpha(), isascii(), │ Thread safety │ MT-Safe │
+       │isblank(), iscntrl(), isdigit(), │               │         │
+       │isgraph(), islower(), isprint(), │               │         │
+       │ispunct(), isspace(), isupper(), │               │         │
+       │isxdigit()                       │               │         │
+       └─────────────────────────────────┴───────────────┴─────────┘
+VERSIONS
+       isalnum_l(), isalpha_l(), isblank_l(), iscntrl_l(), isdigit_l(),  isgraph_l(),  islower_l(),  isprint_l(),  ispunct_l(),  isspace_l(),
+       isupper_l(), isxdigit_l(), and isascii_l() are available since glibc 2.3.
+
+CONFORMING TO
+       C89  specifies  isalnum(),  isalpha(),  iscntrl(),  isdigit(),  isgraph(),  islower(), isprint(), ispunct(), isspace(), isupper(), and
+       isxdigit(), but not isascii() and isblank().  POSIX.1-2001 also specifies those functions, and also isascii() (as  an  XSI  extension)
+       and isblank().  C99 specifies all of the preceding functions, except isascii().
+
+       POSIX.1-2008 marks isascii() as obsolete, noting that it cannot be used portably in a localized application.
+
+       POSIX.1-2008  specifies  isalnum_l(),  isalpha_l(),  isblank_l(),  iscntrl_l(),  isdigit_l(),  isgraph_l(),  islower_l(), isprint_l(),
+       ispunct_l(), isspace_l(), isupper_l(), and isxdigit_l().
+
+       isascii_l() is a GNU extension.
+
+NOTES
+       The details of what characters belong to which class depend on the locale.  For example, isupper() will not recognize an A-umlaut  (Ä)
+       as an uppercase letter in the default C locale.
+
+SEE ALSO
+       iswalnum(3),  iswalpha(3),  iswblank(3),  iswcntrl(3),  iswdigit(3),  iswgraph(3), iswlower(3), iswprint(3), iswpunct(3), iswspace(3),
+       iswupper(3), iswxdigit(3), newlocale(3), setlocale(3), uselocale(3), toascii(3), tolower(3), toupper(3), ascii(7), locale(7)
+
+COLOPHON
+       This page is part of release 4.04 of the Linux man-pages project.  A description of the project, information about reporting bugs, and
+       the latest version of this page, can be found at http://www.kernel.org/doc/man-pages/.
+
+GNU                                                               2015-03-02                                                       ISALPHA(3)
