@@ -8,13 +8,12 @@ typedef struct dataitem{
 		int second_int;
 		int third_int;
 		int fourth_int;
-		int flag;
 }DATA;
 DATA function(char*);
 int main()
 {
 		FILE* fp = NULL;
-		char* name = "bot200.csv";
+		char* name = "normal550.csv";
 		fp = fopen(name,"rb+");
 		if(!fp)
 		{
@@ -28,9 +27,8 @@ int main()
 		float second_int = 0;
 		float third_int = 0;
 		float fourth_int = 0;
-		float flag = 0;
 		int i = 0;
-		for(i = 0;i < 901;i++)  
+		for(i = 0;i < 550;i++)  
 		{
 				fgets(string,sizeof string,fp);
 				item = function(string);
@@ -39,10 +37,9 @@ int main()
 				second_int += item.second_int;
 				third_int += item.third_int;
 				fourth_int += item.fourth_int;
-				flag += item.flag;
 		}
 
-		printf("time = %lf,first_int = %f,second_int = %f,third_int = %f,fourth_int = %f,flag = %f\n",time_during/i,first_int/i,second_int/i,third_int/i,fourth_int/i,flag/i);
+		printf("time = %lf,first_int = %f,second_int = %f,third_int = %f,fourth_int = %f\n",time_during/i,first_int/i,second_int/i,third_int/i,fourth_int/i);
 
 		fclose(fp);
 
@@ -64,33 +61,24 @@ DATA function(char* string)
 				sum=sum*10+strint;
 		}	
 		float time_during = sum/1000.000;
-		//printf("%f",time_during);
 
 		p = strtok(NULL,",");
 		int first_int = atoi(p);
-		//printf("%d\t",first_int);
 
 		p = strtok(NULL,",");
 		int second_int = atoi(p);				
-		//printf("%d\t",second_int);
 
 		p = strtok(NULL,",");
 		int third_int = atoi(p);
-		//printf("%d\t",third_int);
 
 		p = strtok(NULL,",");
 		int fourth_int = atoi(p);
-		//printf("%d\t",fourth_int);
 
-		p = strtok(NULL,",");
-		int flag = atoi(p);
-		//printf("%d\n",flag);
 
 		Temp.time_during =  time_during;
 		Temp.first_int = first_int;
 		Temp.second_int = second_int;
 		Temp.third_int= third_int;
 		Temp.fourth_int = fourth_int;
-		Temp.flag = flag;
 		return Temp;
 }
